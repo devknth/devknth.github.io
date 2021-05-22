@@ -27,16 +27,17 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Manrope, "Spoqa Han Sans";
-  --fontFamily-serif: "IBM Plex Sans", "Spoqa Han Sans";
-  --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --fontFamily-primary: Manrope, "Spoqa Han Sans";
+  --fontFamily-secondary: "IBM Plex Sans", "Spoqa Han Sans";
+  --font-body: var(--fontFamily-secondary);
+  --font-heading: var(--fontFamily-primary);
+  --fontWeight-slim: 400;
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
   --fontWeight-extrabold: 800;
-  --fontWeight-black: 900;
+  --fontWeight-black: 500;
   --fontSize-root: 16px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
@@ -110,7 +111,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--fontWeight-bold);
+  font-weight: var(--fontWeight-normal);
   color: var(--color-heading);
 }
 
@@ -162,6 +163,7 @@ p {
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
   padding: var(--spacing-0);
+  font-weight: var(--fontWeight-slim);
 }
 
 ul,
@@ -177,6 +179,7 @@ ol {
 ul li,
 ol li {
   padding-left: var(--spacing-0);
+  margin-left: var(--spacing-6);
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
@@ -195,7 +198,7 @@ li > ul {
 
 blockquote {
   color: var(--color-text-light);
-  margin-left: calc(-1 * var(--spacing-6));
+  margin-left: calc(-1 * var(--spacing-0));
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
   border-left: var(--spacing-1) solid var(--color-primary);
@@ -277,7 +280,7 @@ a:focus {
 }
 
 .header-link-home {
-  font-weight: var(--fontWeight-bold);
+  font-weight: var(--fontWeight-black);
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
@@ -289,7 +292,10 @@ a:focus {
 }
 
 .bio p {
+  margin-top: var(--spacing-0);
   margin-bottom: var(--spacing-0);
+  font-size: var(--fontSize-0);
+  width: 70%;
 }
 
 .bio-avatar {
