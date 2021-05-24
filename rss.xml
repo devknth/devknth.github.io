@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Status Ambassador Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 22 May 2021 15:44:23 GMT</lastBuildDate><item><title><![CDATA[Status Network Token(SNT) 전망 분석]]></title><description><![CDATA[Summary 기반: ETH 주요 상장 거래소: 바이낸스, 업비트 서비스: 메신저, SNS, 브라우저, 지갑 종합등급: A+ 티커: SNT 한줄평: 높은 실링, 블록체인 기술의 철학에 충실한 개발진 SNT(Status Network Token…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</guid><pubDate>Sat, 22 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Summary&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Status Ambassador Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 May 2021 13:33:23 GMT</lastBuildDate><item><title><![CDATA[Status Network Token(SNT) 전망 분석]]></title><description><![CDATA[Summary 기반: ETH 주요 상장 거래소: 바이낸스, 업비트 서비스: 메신저, SNS, 브라우저, 지갑 종합등급: A+ 티커: SNT 한줄평: 높은 실링, 블록체인 기술의 철학에 충실한 개발진            개요 “Status…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</guid><pubDate>Sat, 22 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;기반: ETH&lt;/li&gt;
 &lt;li&gt;주요 상장 거래소: 바이낸스, 업비트&lt;/li&gt;
@@ -7,132 +7,90 @@
 &lt;li&gt;티커: SNT&lt;/li&gt;
 &lt;li&gt;한줄평: 높은 실링, 블록체인 기술의 철학에 충실한 개발진&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;SNT(Status Network Token) 분석&lt;/h2&gt;
+&lt;p&gt; &lt;br&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt; &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ea0386444e0b85ef517c6d252f3c1a20/1f083/status.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.34177215189873%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABh0lEQVQoz32RzUsbURTF5/8pbZcdrUhduamOKYk2CXXTrGqySIQ0i0KEIAptqEUhWOmqmIC46ULQtSAkm1kURRwmkxDjZDITlJY6Ic3kV/IkQbR44PHeO/eew/2QzhsdXkWryLM6z4M6I3M6T6Y1lnNN+uj1etzFbe5uXPqw1kCe05mYL7Oy2eS03CaWueCponGk/hFJnc5f2u02xWIR13UF12q1KJVKQ1PP80RMmowYwmzyrYF6cs3lry6JFVMY5vK2EHxe+0IymcTv95PNZkmn04TDYQKBAPl8nkKhQCKRIB6PIynvqoy+1tndvxLij99sUXGf29pxBJfJLKMoCqlUikgkQjAYJBQKiX8sFsPn8xGNRpFlGWlj2+HxlMbSusX3H5fMLFR58abMeLjMsXbTXqNhYZomjuNQr9dRVRXLssS7VqthGAa2bVOpVJCuXY/FVZNHLzXR5rNZnbGQTmHvpuKud38pD0ESom6Pg8PfvP9ksvq1yc8zdzjs/hIHQx/c/zuD2D9/fcxoSjKPXAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Status Network&quot;
+        title=&quot;Status Network&quot;
+        src=&quot;/static/ea0386444e0b85ef517c6d252f3c1a20/f058b/status.png&quot;
+        srcset=&quot;/static/ea0386444e0b85ef517c6d252f3c1a20/c26ae/status.png 158w,
+/static/ea0386444e0b85ef517c6d252f3c1a20/6bdcf/status.png 315w,
+/static/ea0386444e0b85ef517c6d252f3c1a20/f058b/status.png 630w,
+/static/ea0386444e0b85ef517c6d252f3c1a20/1f083/status.png 660w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 &lt;h3&gt;개요&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Status는 인권을 수호하는 안전한 커뮤니케이션 도구가 되기 위해 노력합니다. Status는 개인에게 데이터 주권을 되돌려주고, 안전한 의사소통과 함께 사생활을 지키며, 정보의 자유로운 흐름을 돕습니다.”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;SNT(이하 Status)는 탈중앙화 메시지 플랫폼으로 카카오톡이나 위챗 처럼 모바일 메시징 앱을 추구하지만, 때로는 강제적이고 부패할수도 있는 중앙관리자(카카오나 페이스북 같은 서비스 제공 기업들)가 없이 사용자가 주인인 민주적인 플랫폼을 만들기 위해 블록체인을 도입했다.&lt;/p&gt;
+&lt;p&gt;SNT(이하 Status)는 탈중앙화 메시지 플랫폼이다. 카카오톡이나 위챗 처럼 모바일 메시징 앱을 추구하지만, 강제적이고 부패할 수 있는 중앙 관리 체제가 없이 사용자가 곧 주체인 민주적인 플랫폼을 만들기 위해 블록체인의 탈중앙화 기술을 도입했다.&lt;/p&gt;
 &lt;p&gt;Status는 중앙화된 서버가 아니라 사용자들끼리 P2P(Peer to peer)로 데이터를 주고받기 때문에(=탈중앙화) 해킹으로부터 안전하며, 이더리움 지갑주소를 신원증명으로 이용하기 때문에 개인 정보가 노출되는 가입절차가 전혀 없어 프라이버시에 대한 걱정 없이 익명으로 이용이 가능하다.&lt;/p&gt;
 &lt;p&gt;또한 이더리움 네트워크 및 Dapp과 연동되어 있어 앱 내에서 스마트 컨트랙을 자유롭게 이용할 수 있고, 이를 기반으로 사용자들과 채팅을 하며 송금과 결제가 가능하다.&lt;/p&gt;
 &lt;p&gt;현재 안드로이드 및 iOS 스토어에서 다운 가능하며, PC버전도 출시되어있다.&lt;/p&gt;
-&lt;h3&gt;강점&lt;/h3&gt;
+&lt;h3&gt;투자 포인트&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;재성장 잠재력&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Status는 뜨거웠던 2017년 암호화폐 시장에서 많은 관심을 받아 2,30원짜리 동전코인에서 1000원을 돌파하는 지폐로 성장하는 기염을 토했었다.&lt;/p&gt;
-&lt;p&gt;그 후 시장 폭락과 함께 10~20원 구간에서 횡보 하였으며, 현재는 200원까지 회복한 상태다. 암호화폐 시장의 재활성화와 함께 비트코인 이더리움 뿐만 아니라 대다수의 유망 암호화폐들이 4년전 고점을 회복한 현 시점에서, 아직 전고점 대비 채 30%를 회복하지 못한 SNT는 아직 많은 잠재력을 지니고 있다고 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;Status는 뜨거웠던 2017년 암호화폐 시장에서 많은 관심을 받아 2~30원에서 시작해서 1000원을 돌파하는 기염을 토했었다.&lt;/p&gt;
+&lt;p&gt;그 후 시장 폭락과 함께 10~20원 구간에서 횡보 하였으며, 최근에는 거의 400원까지 상승하였으나, 불안정한 가상화폐 시장의 영향으로 지금은 100원대의 가격을 형성하고 있다. 암호화폐 시장의 재활성화와 함께 비트코인 이더리움 뿐만 아니라 대다수의 유망 암호화폐들이 4년전 고점을 회복한 현 시점에서, 아직 전고점 대비 채 20%를 회복하지 못한 SNT는 아직 많은 잠재력을 지니고 있다고 볼 수 있다.&lt;/p&gt;
 &lt;p&gt;현재 시총은 코인마켓캡 기준 120위이며 토큰의 총 발행수량은 6,804,870,174개, 발행수량의 약 50%가 시장에 유통되고 있다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;뛰어난 개발진&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;SNT 전체 가상화폐 시장중에서도 가장 활발한 개발 커뮤니티를 가지고 있는 오픈소스 프로젝트다.&lt;/p&gt;
 &lt;p&gt;(&lt;a href=&quot;https://isthiscoinascam.com/&quot;&gt;Is this a scam&lt;/a&gt; 사이트 기준 개발분야 스코어 만점). 공동 창업자인 제라드 호프는 2010년부터 블록체인 기술 분야에 관여하였고, 이더리움 기술발전에 적극적으로 기여했다.&lt;/p&gt;
-&lt;p&gt;Status의 여러 프로젝트들 중 하나인 님버스(Numbus) 프로젝트는 Status의 기술 개선을 위해 탄생했지만 지금은 이더리움 2.0의 핵심 프로젝트 중 하나로 이더리움 재단으로부터 후원받고 있으며, SNT와 그 개발진이 이더리움 플랫폼 안에서 얼마나 중추적인 역할인지를 증명하고 있다.&lt;/p&gt;
+&lt;p&gt;Status의 여러 프로젝트들 중 하나인 님버스(Numbus) 프로젝트는 Status의 기술 개선을 위해 탄생했지만 지금은 이더리움 2.0 업그레이드의 핵심 프로젝트 중 하나로 이더리움 재단으로부터 후원받고 있다.&lt;/p&gt;
+&lt;p&gt;이더리움 2.0이 완전히 도입될 경우 Nimbus는 모바일이나 임베디드 머신과 같은 경량 디바이스에서 이더리움 네트워크와 통신하기 위한 메인 프로토콜이 될 것이다. 이는 이더리움 재단이 Status를 모바일 환경의 제 1 클라이언트로 고려하고 있음을 암시한다고 볼 수 있다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;‘결제수단’으로써의 내재 가치&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;현재 가상화폐 시장은 투기열풍이 불 정도로 이미 충분한 관심을 받고 있는 상태이며, 이더리움에서 비롯된 ‘스마트 컨트랙트’라는 기술과 함께 발전중인 DApp(탈중앙화 어플리케이션)생태계와 블록체인의 응용기술도 다양한 분야로 확장되어져 왔다.&lt;/p&gt;
+&lt;p&gt;현재 가상화폐 시장은 투기열풍이 불 정도로 이미 충분한 관심을 받고 있는 상태이며, 이더리움에서 비롯된 ‘스마트 컨트랙트(Smart Contract)‘라는 기술은 DApp(탈중앙화 어플리케이션)이라는 새로운 생태계를 구축했고, 이에 따라 블록체인의 응용기술도 다양한 분야로 확장하며 발전해 나가고있다.&lt;/p&gt;
 &lt;p&gt;지금까지는, 가상화폐라는 새로운 자산 개념이 사회에게 너무도 생소한 개념이었기 때문에 기존의 경제 시스템과 가상화폐 세계는 마치 육지와 바다처럼 명확하게 분리되어 ‘거래소’라는 특정 접점을 통해서만 거래가 이루어지고 있었다.&lt;/p&gt;
-&lt;p&gt;하지만 지난 문명이 그래왔듯 미지의 영역은 점차 개척되어 유용한 수단으로 발전할 것이고, 가상화폐는 거래소를 벗어나 일반 화폐처럼 일상 곳곳으로 녹아들어갈 것임은 쉽게 짐작할 수 있다. 다만 어떤 가상화폐가 주축이 될지는 아직 미지수이긴 하나 가장 유력한 후보는 역시 가장 대중화된 생태계로부터 시작할 가능성이 높으며, 이는 이더리움과 그에 파생된 DApp들이 될 것이다.&lt;/p&gt;
-&lt;p&gt;위와 같은 시나리오가 현실이 될 경우 이더리움의 대표 가상지갑이자 거래수단으로 포지셔닝 하고 있는 SNT는 가상화폐 경제활동의 대중화 플랫폼이 될 것이다.&lt;/p&gt;
+&lt;p&gt;하지만 지난 문명이 그래왔듯 미지의 영역은 점차 개척되어 유용한 수단으로 발전할 것이고, 가상화폐는 거래소를 벗어나 일반 화폐처럼 일상 곳곳으로 녹아들어갈 것임은 쉽게 짐작할 수 있다. 다만 어떤 가상화폐가 주축이 될지는 아직 미지수이긴 하나 가장 유력한 후보는 역시 가장 대중화된 생태계로부터 시작할 가능성이 높으며, 이는 이더리움과 그에 파생된 DApp들이 될 것이다. (이더리움의 DApp 생태계는 전체 DApp 마켓의 80%를 차지한다.)&lt;/p&gt;
+&lt;p&gt;위와 같은 시나리오가 현실이 될 경우 이더리움의 대표 가상지갑이자 거래수단으로 포지셔닝 하고 있는 Status는 가상화폐 경제 활동의 대중화를 선도하는 플랫폼이 될 것이다.&lt;/p&gt;
 &lt;h3&gt;리스크&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;이더리움의 기술적 한계&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;2세대 블록체인인 이더리움은 높은 거래 수수료, 느린 트랜잭션 처리율, 비 효율적 증명방식이라는 고질적인 문제점을 안고 있다. 이로인해 이더리움 기반 DApp들은 핵심 트랜잭션을 처리하기 위해서(유저가 아이템을 구입한다, 특정 자산의 소유권을 명시한다 등등) 막대한 수수료를 지불해야한다.&lt;/p&gt;
-&lt;p&gt;이러한 수수료는 거래대금과 무관하게 고정이어서 소액거래일수록 불리해진다. 예를들어, 샌드박스라는 이더리움 기반 게임의 경우, 게임 내에서 쓰이는 30달러 가치의 아이템(=500SAND)을 구입하기 위해 수수료로 0.02~0.03ETH(약 80달러)를 지불해야 한다. 해당 아이템은 구입즉시 내것이 되는게 아니라 해당 거래가 최종적으로 처리되기까지 3~10분이 걸린다.&lt;/p&gt;
-&lt;p&gt;이러한 이더리움의 단점을 개선한 3세대 블록체인 기술은 계속하여 탄생하고 있으며, 대표적으로 이오스, 에이다, 폴카닷 등이 있다.&lt;/p&gt;
+&lt;p&gt;이러한 수수료는 거래대금과 무관하게 고정이어서 소액거래일수록 불리해진다.&lt;/p&gt;
+&lt;p&gt;예를들어, 샌드박스라는 이더리움 기반 게임의 경우, 게임 내에서 쓰이는 30달러 가치의 NTF 아이템을 구입하기 위해 수수료로 0.02~0.03ETH(약 60달러)를 지불해야 한다.&lt;/p&gt;
+&lt;p&gt;해당 아이템은 구입즉시 내것이 되지 못한다. 거래 당시의 트래픽과 제시한 수수료에 따라, 최종 승인까지 적게는 1분에서 많게는 30분이 걸린다. (수수료를 아끼려다가는 영영 거래가 안될수도 있다.)&lt;/p&gt;
+&lt;p&gt;아울러, 이러한 거래 처리를 위한 작업 증명은 비트코인과 유사한 PoW(Proof of work)방식으로 진행된다. 다시말해 채굴 경쟁이 과열됨에 따라 채굴에 필요한 컴퓨팅 파워는 기하급수적으로 증가하며, 필연적으로 불필요한 전력 낭비를 초래하게 되는 구조이다.&lt;/p&gt;
+&lt;p&gt;이러한 이더리움의 단점을 개선한 3세대 블록체인 기술은 계속해서 탄생하고 있으며, 코스모스, 카르다노, 폴카닷, 아이오타 등 무수히 많은 프로젝트들이 이더리움의 대항마, 차세대 플랫폼을 주창하며 블록체인 플랫폼의 혁명을 꾀하고 있다.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;국가주도 디지털 화폐 개발&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;각 국의 중앙은행발 디지털 화폐인 CBCD가 개발되고 있으며, 이를 제외한 모든 가상화폐를 앞으로도 계속 인정하지 않을 수 있다. 이 경우 실물세계의 시장에 가상화폐는 제한적인 형태로 존재할 수 밖에 없기 때문에 자산으로써의 가치에 문제가 생길 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/new-beginnings/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
-&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This however showed weasel&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Well uncritical so misled&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;this is very interesting&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
-view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
-&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.&lt;/p&gt;
-&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
-&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
-&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;So baboon this&lt;/li&gt;
-&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
-&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
-&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
-impassive fruitlessly shut&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and
-return to its own, safe country.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.&lt;/p&gt;
-&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
-&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.&lt;/p&gt;
-&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
-&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
-&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.&lt;/p&gt;
-&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
-&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word “and” and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Post!]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/my-second-post/</guid><pubDate>Wed, 06 May 2015 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
-&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich.”?
-(&lt;a href=&quot;https://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;각 국의 중앙은행발 디지털 화폐인 CBCD가 개발되고 있으며, 이를 제외한 모든 가상화폐를 앞으로도 계속 인정하지 않을 수 있다. 이 경우 실물세계의 시장에 가상화폐는 제한적인 형태로 존재할 수 밖에 없기 때문에 자산으로써의 가치에 문제가 생길 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;강력한 지갑 DApp의 존재&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;현재 이더리움 지갑중에 가장 인기있는 서비스는 ‘메타마스크’이다. 메타마스크는 웹브라우저 기반 지갑이며, 현재 모바일 어플리케이션 버전도 출시된 상태다.&lt;/p&gt;
+&lt;p&gt;Status의 경우 자체 Web 3.0 브라우저를 Status 어플리케이션 내에 탑재함으로써 플러그인 없이도 다양한 DApp 서비스를 사용할 수 있는 웹브라우징을 환경을 제공한다.&lt;/p&gt;
+&lt;p&gt;반면, 메타마스크는 일반인들이 친숙한 일반 웹브라우징 환경에서 플러그인 지갑 설치만으로 DApp의 서비스를 사용할 수 있도록 도와주는 역할을 한다. 사용자 입장에서 봤을 때 접근성과 노출성이 더 뛰어난 서비스는 메타마스크일 것이다.&lt;/p&gt;
+&lt;h3&gt;그럼에도 불구하고&lt;/h3&gt;
+&lt;p&gt;위와 같은 리스크에도 불구하고 Status는 여전히 잠재력이 높은 서비스라고 할 수 있다.&lt;/p&gt;
+&lt;p&gt;이더리움은 약 2년전에 이더리움 2.0을 선보일것을 발표했고, 업그레이드는 현재도 활발히 진행중이다. Eth2는 위에 나열된 문제점들을 모두 개선하게 될 프로젝트로, 발표된 내용과 같이 구현될 경우 지금과는 현저히 다른 혁신적인 모습으로 거듭날 것이다.&lt;/p&gt;
+&lt;p&gt;국가주도 디지털 화폐의 경우 아직 초기단계이며 합의 알고리즘을 어떻게 할지를 정하는 것 부터가 난해한 과제다. 블록체인이 ‘탈중앙화’기술인 만큼 국가가 디지털 화폐 시장을 선도하기 위해 블록체인 기술을 도입한다는 것은 ‘화폐를 탈중앙화 기술로 구현하여 중앙통제 하겠다’라는 모순적인 상황이며, 이에 대해 국가는 이렇다할 답을 아직 찾지 못하고 있는 실정이다.&lt;/p&gt;
+&lt;p&gt;마지막으로 메타마스크의 경우는 서로 가고자 하는 방향이 같은 듯 매우 다른 서비스라고 할 수 있다. 메타마스크는 PC브라우저 영역에서 이미 독점적인 위치에 올랐다. 반면 Status가 가고자하는 방향은 PC가 아닌 모바일이다.&lt;/p&gt;
+&lt;p&gt;메타마스크가 모바일 시장에 영역을 넓히기 위해서는 Status처럼 메타마스크 모바일 앱 안에 Web 3.0 브라우저를 도입하거나, 모바일 브라우저가 플러그인 설치 기능을 개발해 줄 때까지 하염없이 기다리는 수 밖에 없다.&lt;/p&gt;
+&lt;p&gt;따라서 Status가 메시징 기능과 지갑 기능의 통합제공을 통해 모바일 가상화폐 결제수단의 선구자로서 독점적인 위치를 확보한다면, 브라우저 플러그인은 차순위로 미뤄두어도 현재 메타마스크가 차지하고 있는 지분을 머지않아 어렵지 않게 나누어 가질 수 있을 것이다.&lt;/p&gt;
+&lt;h3&gt;마치며&lt;/h3&gt;
+&lt;p&gt;Status 어플리케이션은 현재 이미 iOS와 Adroid 스토어에 모두 출시된 상태다.&lt;/p&gt;
+&lt;p&gt;혹자는 현재의 어플리케이션을 이용해보고, UI는 깔끔하지만 메시징, 지갑, 브라우저 뭐하나 이렇다 할 성과를 보여주지 못하는 외면받은 서비스라는 평가를 하는 듯 하다.&lt;/p&gt;
+&lt;p&gt;이 글에서 전달하고자 했던 메시지는, Status의 진정한 가치는 아직 보여지기 전 단계이며, 이더리움 2.0 그리고 DApp 생태계의 발전과 함께 꽃피우게 될 것이라는 사실이었다.&lt;/p&gt;
+&lt;p&gt;‘이더리움의 대중화’, ‘DApp의 다양화’, ‘모바일을 통한 가상화폐 거래’&lt;/p&gt;
+&lt;p&gt;이러한 새 시대가 도래하였을 때 이미 완성에 가까운 모습의 어플리케이션이 준비되어 있다면, 유저들은 과연 어떤 선택을 하게 될까?&lt;/p&gt;
+&lt;p&gt;Status가 준비하는 미래의 모습을 생각할 때, 이 서비스의 현재 가치는 아직 움트고 있는 씨앗에 불과하다고 할 수 있다.&lt;/p&gt;</content:encoded></item></channel></rss>
