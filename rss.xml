@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Status Ambassador Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 13:04:15 GMT</lastBuildDate><item><title><![CDATA[Status Node 운영하기 (feat. Azure)]]></title><description><![CDATA[탈중앙화 메시징 플랫폼을 지향하는 Status는 중앙화된 서버 없이도 안전하게 메시지를 전송하기 위한 방법으로 P2P(Peer to peer) 기술을 이용한다. P2P 아키텍처 상에서 메시지는 네트워크의 일부이자 서비스 제공자인 ‘노드(node…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Status 노드 운영하기/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Status 노드 운영하기/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; &lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Status Ambassador Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 14:18:24 GMT</lastBuildDate><item><title><![CDATA[Status Node 운영하기 (feat. Azure)]]></title><description><![CDATA[탈중앙화 메시징 플랫폼을 지향하는 Status는 중앙화된 서버 없이도 안전하게 메시지를 전송하기 위한 방법으로 P2P(Peer to peer) 기술을 이용한다. P2P 아키텍처 상에서 메시지는 네트워크의 일부이자 서비스 제공자인 ‘노드(node…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Status 노드 운영하기/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Status 노드 운영하기/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; &lt;br&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -46,31 +46,28 @@
 &lt;li&gt;2개의 64GB SSD 디스크 무료 제공*&lt;/li&gt;
 &lt;li&gt;1코어 1GB RAM 성능의 가상머신 무제한 생성 가능*&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;*Free Trial Benefit(Azure 최초 이용자에게 12개월간 제공하는 혜택)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Free Trial Benefit(Azure 최초 이용자에게 12개월간 제공하는 혜택)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Node 운영 시 과금 요소(Free Trial 기간 내)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Public IP address 이용료 - 30일 기준 약 3,200원($0.004/hour)&lt;/li&gt;
 &lt;li&gt;5GB 초과분의 데이터 전송 비용 (&lt;a href=&quot;https://azure.microsoft.com/en-us/pricing/details/bandwidth/&quot;&gt;Pricing Detail&lt;/a&gt;) - 운영해본 결과 한달 1만원 이내&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;*Note: 첫달은 제공 되는 무료 크레딧으로 차감 가능&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Note: 첫달은 제공 되는 무료 크레딧으로 차감 가능&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Free Trial 기간(12개월) 이후 추가 과금 요소&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;가상머신 Compute(CPU + Memory) 이용료&lt;/li&gt;
 &lt;li&gt;가상머신 디스크 이용료&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Step-by-step 노드 설치 가이드&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;노드 생성 절차 간단 요약&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Azure 가입 및 무료평가판 구독 생성&lt;/li&gt;
-&lt;li&gt;리눅스 가상머신 생성&lt;/li&gt;
-&lt;li&gt;포트 정책 추가&lt;/li&gt;
-&lt;li&gt;가상머신 원격 접속(SSH)&lt;/li&gt;
-&lt;li&gt;컨테이너 생성&lt;/li&gt;
-&lt;li&gt;노드 설치 및 구동&lt;/li&gt;
-&lt;li&gt;작동 테스트&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;[노드 생성 절차 간단 요약]
+
+1. Azure 가입 및 무료평가판 구독 생성
+2. 리눅스 가상머신 생성
+3. 포트 정책 추가
+4. 가상머신 원격 접속(SSH)
+5. 컨테이너 생성
+6. 노드 설치 및 구동
+7. 작동 테스트&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;Azure 가입 및 무료평가판 구독 생성&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;아래 링크를 통해서 계정 및 무료 평가판 구독을 생성한다.&lt;/p&gt;
 &lt;p&gt;Azure Free Trial&lt;/p&gt;
@@ -242,7 +239,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;*Note: Password 방식의 경우 어디서든 IP를 통해 접속시도를 할 수 있어 계정 정보 취급에 주의 필요&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Note: Password 방식의 경우 어디서든 IP를 통해 접속시도를 할 수 있어 계정 정보 취급에 주의 필요&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;[VM Creation Form] SSH(22) 포트를 허용하도록 체크&lt;/li&gt;
 &lt;/ul&gt;
@@ -382,8 +379,9 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;가상머신 원격 접속(SSH)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;ssh [Virtual Machin Name]@[IP Address] 를 이용하여 리눅스 가상머신에 접속&lt;/li&gt;
+&lt;li&gt;Windows의 ‘Powershell’, MacOS의 ‘Terminal’등 커맨드라인 툴을 실행. 아래 명령어를 이용하여 리눅스 가상머신에 접속&lt;/li&gt;
 &lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;Virtual Machin Name&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;@&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;IP Address&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 613px; &quot;
@@ -413,10 +411,10 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;*Note: IP 주소는 Azure portal &gt; Virtual Machine &gt; [Your VM name] &gt; Overview’ 페이지에서 확인 가능&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Note: IP 주소는 Azure portal &gt; Virtual Machine &gt; [Your VM name] &gt; Overview’ 페이지에서 확인 가능&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Tool 설치&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Note: Code 박스의 Script를 한줄씩 복사하여 실행&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Note: Code 박스의 Script를 한줄씩 복사하여 실행&lt;/li&gt;
 &lt;li&gt;Docker 설치 및 등록&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; update
