@@ -1,4 +1,735 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Status Ambassador Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 May 2021 15:51:38 GMT</lastBuildDate><item><title><![CDATA[Status Network Token(SNT) 전망 분석]]></title><description><![CDATA[Summary 기반: ETH 주요 상장 거래소: 바이낸스, 업비트 서비스: 메신저, SNS, 브라우저, 지갑 종합등급: A+ 티커: SNT 한줄평: 높은 실링, 블록체인 기술의 철학에 충실한 개발진            개요 “Status…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</guid><pubDate>Sat, 22 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Summary&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Status Ambassador Blog]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 13:04:15 GMT</lastBuildDate><item><title><![CDATA[Status Node 운영하기 (feat. Azure)]]></title><description><![CDATA[탈중앙화 메시징 플랫폼을 지향하는 Status는 중앙화된 서버 없이도 안전하게 메시지를 전송하기 위한 방법으로 P2P(Peer to peer) 기술을 이용한다. P2P 아키텍처 상에서 메시지는 네트워크의 일부이자 서비스 제공자인 ‘노드(node…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/Status 노드 운영하기/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/Status 노드 운영하기/</guid><pubDate>Sat, 29 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt; &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3c2787f62267807cc3493deea294af15/d48f1/Untitled.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABdUlEQVQoz22RwUsbQRTG9+Q/kIv/gdBTvZbgofQgFCS5FS+hSCmloPRUBRXBg1BqITU9tIEUeu4tVFAkPWggJriHgMa4SBKJKdlEY7fZdLPZ2V/ZiUlW6QfD9968mW++90ZpGQ5Hxx2uWg4eXNeVLITANE0cx8G2bcmDmsfDGPgrXPoZKKHXFYKz5zx9WSatmsNDlmWRy+XIZrNkMhlUVaVQKEhh/8ML8RTBlE7i0u4LToY0kj8NNr7ozLyq0HNGLrzLnU4HwzDodrtyefviVqyiGwTCW4zHVEKHJlZPoKx+rPP7j8OL5SqPIyW8EfRbHgmXy2UG8PKeI2T8eeeUsXCcue9FHiavydQtlGdvLnj7/hcT02esROt3xHRdp9Fo0G63JXtu/e1Ore2hPP/Bgw8nBGIllg5aKJuJBpHFKtFvTenUL6hpGvl8nmKxKLlWqw2d3pg2j9b3ebet8Smt8+RrifndJgr34P9JP/+vLnw1OXPh8g+J/PZwdKv0CgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled.png&quot;
+        title=&quot;./Untitled.png&quot;
+        src=&quot;/static/3c2787f62267807cc3493deea294af15/f058b/Untitled.png&quot;
+        srcset=&quot;/static/3c2787f62267807cc3493deea294af15/c26ae/Untitled.png 158w,
+/static/3c2787f62267807cc3493deea294af15/6bdcf/Untitled.png 315w,
+/static/3c2787f62267807cc3493deea294af15/f058b/Untitled.png 630w,
+/static/3c2787f62267807cc3493deea294af15/d48f1/Untitled.png 796w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;탈중앙화 메시징 플랫폼을 지향하는 Status는 중앙화된 서버 없이도 안전하게 메시지를 전송하기 위한 방법으로 P2P(Peer to peer) 기술을 이용한다.&lt;/p&gt;
+&lt;p&gt;P2P 아키텍처 상에서 메시지는 네트워크의 일부이자 서비스 제공자인 ‘노드(node)‘를 통해 전달되며, 운영중인 노드가 많아질수록 Status Network는 더욱 안정화된다.&lt;/p&gt;
+&lt;p&gt;Status는 사용자가 주체가 되는 탈중앙화 플랫폼이기 때문에 누구든지 약간의 노력으로 자신의 컴퓨터나 클라우드를 이용해 Status의 노드를 운영해볼 수 있다. 아직 노드 운영에 대한 정기적인 보상(Node Incentive)은 없지만 이는 향후 구체화 될 전망이며 이를 통해 Status Network의 가치는 크게 증가될 것이다.&lt;/p&gt;
+&lt;p&gt;한편, Azure는 Microsoft에서 제공하는 Public Cloud Service이다.&lt;/p&gt;
+&lt;p&gt;최초 가입시 한달간 200달러 상당의 크레딧이 제공되며 12개월간 일부 인기서비스를 무료로 이용할 수 있기 때문에, 단기간동안 가벼운 테스트용도에서 상대적으로 AWS보다 비용이 저렴하다.&lt;/p&gt;
+&lt;p&gt;이번 글에서는 Azure가 최초 가입 사용자에게 주는 혜택을 활용하여, 저렴한 비용으로 스테이터스 노드를 운영해볼 수 있는 방법을 소개한다.&lt;/p&gt;
+&lt;h3&gt;Azure 이용시 알아야 할 사항&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;특징&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;첫달 약 200,000원 상당 무료 크레딧 제공*&lt;/li&gt;
+&lt;li&gt;Data transfer 5 GB까지 무료&lt;/li&gt;
+&lt;li&gt;2개의 64GB SSD 디스크 무료 제공*&lt;/li&gt;
+&lt;li&gt;1코어 1GB RAM 성능의 가상머신 무제한 생성 가능*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*Free Trial Benefit(Azure 최초 이용자에게 12개월간 제공하는 혜택)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Node 운영 시 과금 요소(Free Trial 기간 내)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Public IP address 이용료 - 30일 기준 약 3,200원($0.004/hour)&lt;/li&gt;
+&lt;li&gt;5GB 초과분의 데이터 전송 비용 (&lt;a href=&quot;https://azure.microsoft.com/en-us/pricing/details/bandwidth/&quot;&gt;Pricing Detail&lt;/a&gt;) - 운영해본 결과 한달 1만원 이내&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*Note: 첫달은 제공 되는 무료 크레딧으로 차감 가능&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Free Trial 기간(12개월) 이후 추가 과금 요소&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;가상머신 Compute(CPU + Memory) 이용료&lt;/li&gt;
+&lt;li&gt;가상머신 디스크 이용료&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Step-by-step 노드 설치 가이드&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;노드 생성 절차 간단 요약&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Azure 가입 및 무료평가판 구독 생성&lt;/li&gt;
+&lt;li&gt;리눅스 가상머신 생성&lt;/li&gt;
+&lt;li&gt;포트 정책 추가&lt;/li&gt;
+&lt;li&gt;가상머신 원격 접속(SSH)&lt;/li&gt;
+&lt;li&gt;컨테이너 생성&lt;/li&gt;
+&lt;li&gt;노드 설치 및 구동&lt;/li&gt;
+&lt;li&gt;작동 테스트&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Azure 가입 및 무료평가판 구독 생성&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;아래 링크를 통해서 계정 및 무료 평가판 구독을 생성한다.&lt;/p&gt;
+&lt;p&gt;Azure Free Trial&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/ko-kr/free/&quot;&gt;https://azure.microsoft.com/ko-kr/free/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;생성이 완료된 후 [Azure portal &gt; Subscriptions &gt; Overview] 페이지로 이동해보면 아래와 같은 화면을 볼 수 있다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/91887997505a1aa4aada51001ce4d9c9/d26aa/Untitled%201.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.79746835443038%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkElEQVQoz5VSa4+jMAzk///DvSuFfjhaKIUS8rATw6xstqvefThpLY3sPDQZj1Nx2eFJIFJQiiCXI4v8DDlnrOuKSmiEX28IqYA4g7OAuGDbNvwkSilo2xaVlIQQFsxPh0T8pVKw7ztYdlPMRMi5gHIxJUUERARmRpHN9rz3uFwuqIJ3GPoOw9BjWWasboFbZsQY4SJjmia7TMSIxEhERux9sDucC1JKcM4dhItf8efa4TGOSDGCUkTwK4ZhsHocR/PoaEtM0eHxfqgrAnUnxIRz06AKvGN2CTF4hBC+Pbnf72ZyiNHWIhuYi9Vqxzs0Ykyozw0qiox5fCJRMl+0Dc1KqIpf6rZ9Nx/xInoj/oswEGGcJgQfzGT1Q/1SQvXFh4CcGZwzolvB9xH8XMBFzD+Ftu7WgLMSiuiEFnw99B2Px8O+jqp9TfR/oZ3YUFbn0DSN4Xa72VRVXV3XaNsLPn594HT6jdOptkHpuT42TQe0nucZfd8bR6Vfous6XK9XI9QDzQoleMfrTPO/0H0d6id3G1KcwtNk0wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 1.png&quot;
+        title=&quot;./Untitled 1.png&quot;
+        src=&quot;/static/91887997505a1aa4aada51001ce4d9c9/f058b/Untitled%201.png&quot;
+        srcset=&quot;/static/91887997505a1aa4aada51001ce4d9c9/c26ae/Untitled%201.png 158w,
+/static/91887997505a1aa4aada51001ce4d9c9/6bdcf/Untitled%201.png 315w,
+/static/91887997505a1aa4aada51001ce4d9c9/f058b/Untitled%201.png 630w,
+/static/91887997505a1aa4aada51001ce4d9c9/d26aa/Untitled%201.png 839w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;여기서 Offer ID가 ‘MS-AZR-0044P’이면 Free trial 구독이다.&lt;/p&gt;
+&lt;p&gt;Offer ID가 다를 경우 12개월 무료 혜택이 아닌 것이기 때문에 위에 언급된 가상머신 Compute와 Disk 비용이 추가로 발생하게 되니 주의가 필요하다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;리눅스 가상머신 생성&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://portal.azure.com/&quot;&gt;Azure Portal&lt;/a&gt; 로그인&lt;/li&gt;
+&lt;li&gt;검색창에 ‘Free Service’ 입력 + Linux Virtual Machine ‘Create’ 클릭&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/547bce69ce3f2f6ae3be920b248a416b/8ecb0/Untitled%202.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.22784810126582%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACO0lEQVQoz4WTS2sUQRSF529nk5B93Gh040JMhMAkZhNBCW4U1CxUiI5xZlqj8+iZ7q5+VHVXvx+fdCUGQhAPHC5UV52+59Stwf7eHtvb2+zuPuTezg6bm5t3uLW1xcbGBvcfPOL7xUtG50Msa4xlWVjW1NTJZMJqtWLw6vQ1T57uc3x8zPOjI4bDIYeHh3d4cHDAyckLLn9+ZTEf4ThrHMe54Xq9ZjqdMmg7qOqasir5H5quw/YkUSjJs5SqLCiLnCLPKLKU+WzGoKoqiqKkKArDPM/Jssww0SlpmpKlGq0TXE8wEwrPc4nj2Hwripyu62jbluVyyaBXjgMX3/cNpYxMFUKgI0EUKoIgQXgRv2Y2lq2MXaUUTdMYoR69qG3bDIKk4o2VEAYBYRDiBwFJklCUFe8uNfP1OTI4Q4gznPVvhKOIwsAItl13I3YjGOqStxMfXwizKdHaWCnLivc/Qmb2N+JohJIXOJ6Nq3OUlCip6OO6I9jUFW2Zcf2zG/Qb6kJz7cggkorJbIHwPMIwRGt9y7LJsK4qtIqIZUDQZxdERHFq7KRJjpYhgS9wPMFy5aLj2GTXoypL0+VfUdNhWTeM3YxFmNM2DXXd0PSzRMel+4WpE1LXrTkYSYnWKUkSo+KESMYmpr7TfkLm83l/KTmPP7icjkO65mqEyqIwMzb8/IlnH13yojTd9Db7VzEejxlPJkyn1vVruVobjUYMYiWJxYrIW5kM7OXS1J5K+MT++tbav7hYLPA8jz/2oXX5MBCqRAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 2.png&quot;
+        title=&quot;./Untitled 2.png&quot;
+        src=&quot;/static/547bce69ce3f2f6ae3be920b248a416b/f058b/Untitled%202.png&quot;
+        srcset=&quot;/static/547bce69ce3f2f6ae3be920b248a416b/c26ae/Untitled%202.png 158w,
+/static/547bce69ce3f2f6ae3be920b248a416b/6bdcf/Untitled%202.png 315w,
+/static/547bce69ce3f2f6ae3be920b248a416b/f058b/Untitled%202.png 630w,
+/static/547bce69ce3f2f6ae3be920b248a416b/40601/Untitled%202.png 945w,
+/static/547bce69ce3f2f6ae3be920b248a416b/8ecb0/Untitled%202.png 989w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[VM Creation Form] 화면 정보&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 552px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/040f038def707062ff1d8a437dc5a19f/08c0b/Untitled%203.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 130.37974683544306%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaCAYAAAC3g3x9AAAACXBIWXMAAAsTAAALEwEAmpwYAAADFElEQVRIx5VVW47cNhDUiQPkM1fJLZIfnyF3WDvZeWlGGvH9pqgKujVaz+zDaxMoEBClYnV3dauTNmHSDqMOOAsHHyJSSogxYp5n0FqW5afRSSGw3+8wjiOOhwOOxyMOhwN2ux2c9/jV1ZEK7z1CiG8Ol5u61tpPgRWmFDFNE7x1mGt9CZGWVhJymjj8zxBCYGEdMeecYIxmxBD5NlrnUeDQXzBdr/xyrRWllHeRc2bSbgtpK8C9wlBmxLqG0pb2KRYs6IL36Pue4axl4o2w+IxgA3IoaKVhzj/CjJorOpJLRJQHkk153AjFIHE5DbDSIfmM6BIj2PiASLsJ8DZQURITbiT3IRtpMfQDtDSw2sEqC6cdoosILvK+InEkznh0pEprzWaud+pop9ut8kxslWN4E9DKwuBQ08x7TTNyqKtCrRWrDD68VJiW944dQHmtc32pZkyRUWq5dchalLnNq7E3/70OuR8Vno8DtDYchRSSQb4lWGP4gpwSEvkxRHQUJneK9y9e20jbArRfbT0yY9+fMA4Drtcr37gRWudhjGHMc3t3GKwtejccKGekikL/nj86BM4qQEiBmNLD1Ll1+R2+n61VVgopxIcKcy8PGsPxCiscsqtINiPZ8grrs2gSgolk7AznHGopb0Kxk4caDIKMiCojqvQBMoJKCDqunUI5ctZxpbbW4xwyoUZQEclkxA/AZ/qmkHwopglKKVb6YJ+2PPjys8U5JKucz2eu8HUceXKPwwgpJV9gucp6rbZed/qGfGmNhdEGxhreKbqOhgKRCSGghOQXqWtyLvwhnb+ZzG35eGITK1W6EEoB7obESXpIJTkd1toXi/zQ2KTEWnf7rwS+ffOaER5m8iihofiZkV9he0bWCSbRxG5oZGo29nz3ewKqk/BiQDAS0QgELZCsekA0EslpZKfRMvXy3JDqilJv+SDyBZjdBePhCfv/vuK0/4bD8xP6/Tccd19xfH7Caf8vPxv6Ha7nPWr26P78Z8Jvfx3x+98n/PGlh6H5VjKEmGCs5XRcLheeLvf/nfd/ucD/k+7qN4NYHFIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 3.png&quot;
+        title=&quot;./Untitled 3.png&quot;
+        src=&quot;/static/040f038def707062ff1d8a437dc5a19f/08c0b/Untitled%203.png&quot;
+        srcset=&quot;/static/040f038def707062ff1d8a437dc5a19f/c26ae/Untitled%203.png 158w,
+/static/040f038def707062ff1d8a437dc5a19f/6bdcf/Untitled%203.png 315w,
+/static/040f038def707062ff1d8a437dc5a19f/08c0b/Untitled%203.png 552w&quot;
+        sizes=&quot;(max-width: 552px) 100vw, 552px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[VM Creation Form] Size가 ‘Standard_B1’인지 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a7a74249b52ccb0a9c3782b53be39744/5b4a1/Untitled%204.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 15.822784810126581%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAjElEQVQI12WN3QrCMBSD9/7PKLanVOnqNifr77ElcorzxouPJCSQqfeONzN6axB/0lpDyXmQT1JC+iKZmcG1DpWuMmMqpeC172NQa4Vk0ZgSLnSHuc14bhuWxwI/ezjn4GaHdV0RY0QIYRxYa+G9x3QcB7TWfyitcVUEpQmGCEQEY8wPyedWvFJqHHwAtFTjXrVrEuEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 4.png&quot;
+        title=&quot;./Untitled 4.png&quot;
+        src=&quot;/static/a7a74249b52ccb0a9c3782b53be39744/f058b/Untitled%204.png&quot;
+        srcset=&quot;/static/a7a74249b52ccb0a9c3782b53be39744/c26ae/Untitled%204.png 158w,
+/static/a7a74249b52ccb0a9c3782b53be39744/6bdcf/Untitled%204.png 315w,
+/static/a7a74249b52ccb0a9c3782b53be39744/f058b/Untitled%204.png 630w,
+/static/a7a74249b52ccb0a9c3782b53be39744/5b4a1/Untitled%204.png 831w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[VM Creation Form] 인증방식(Authentification Type) ‘Password’ 선택&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/70193c3996728754a883acabf3fc0644/5b4a1/Untitled%205.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.0126582278481%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVQY05WRSQ6DMAxFuf8hW1AHEdQAxZlwhl85iIpFWdTSkyX7e0qalBKcs3DOwXuPGCNyztVLzFqLEEKNifYXpZSqFZq9UJBCSYpxKujHBVprMDPObNeLTimFJjKDyIDDKuldhhQzRjVjGmYEw1gNf/0RiUWX0D96DMOARqYvRFgP29WWqWB5EUgbrCaeQ9IwQz3V1lDOlHX1S+M9z/UdZYi3HrofodUEmuw5o4F9O9y6+3YyEaFtW3RdV/2R6+X6F/IpH6sDzXog1IX/AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 5.png&quot;
+        title=&quot;./Untitled 5.png&quot;
+        src=&quot;/static/70193c3996728754a883acabf3fc0644/f058b/Untitled%205.png&quot;
+        srcset=&quot;/static/70193c3996728754a883acabf3fc0644/c26ae/Untitled%205.png 158w,
+/static/70193c3996728754a883acabf3fc0644/6bdcf/Untitled%205.png 315w,
+/static/70193c3996728754a883acabf3fc0644/f058b/Untitled%205.png 630w,
+/static/70193c3996728754a883acabf3fc0644/5b4a1/Untitled%205.png 831w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;*Note: Password 방식의 경우 어디서든 IP를 통해 접속시도를 할 수 있어 계정 정보 취급에 주의 필요&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[VM Creation Form] SSH(22) 포트를 허용하도록 체크&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d676e32e274192e96e66b28ab370b0e6/5b4a1/Untitled%206.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 29.11392405063291%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA10lEQVQY04WR6WrEMAyE8/6PWFrqUOLGTrHl+AIfmcVHoD92WcGHRj40Fl60UlBKQWuNlBJqrcglI+fc60bTz0hp5FIKQghdL/u+oyGFhJACQohuEEOA9x7eu56dtbP2cM7B2YG1tptyzkFEWIwhaK1giPrBGGN3sj7AGDNfmFCviuu6+gS3bpRa0GLbttHw3mj8D+0zyFj4ZhIi3gXnv6PhISXkxJ7nGMc5HPzA/iNAfyfoMFCSXqChJeHz46tPtKzrCsZYp+kbxlaw77nO1tfM+23k9jkPjAHLfxw/7WsAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 6.png&quot;
+        title=&quot;./Untitled 6.png&quot;
+        src=&quot;/static/d676e32e274192e96e66b28ab370b0e6/f058b/Untitled%206.png&quot;
+        srcset=&quot;/static/d676e32e274192e96e66b28ab370b0e6/c26ae/Untitled%206.png 158w,
+/static/d676e32e274192e96e66b28ab370b0e6/6bdcf/Untitled%206.png 315w,
+/static/d676e32e274192e96e66b28ab370b0e6/f058b/Untitled%206.png 630w,
+/static/d676e32e274192e96e66b28ab370b0e6/5b4a1/Untitled%206.png 831w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;[VM Creation Form] ‘Review + Create’를 클릭하여 가상머신 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fce1fe912d645a92f6a47e86704a2455/6f2be/Untitled%207.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABmElEQVQoz3WSW47bMAxFs/+NdAPdQz8K9G8wQFG0CWJ7ZuLIest6+hRyJtOgRQlcUKDIS16JhzVHjHd45/De45zDWbv7e+weN9pgjCWEsCPnTK2V1tp+7vcHmwQv85nLZcZai1KKeRGIRaC0QiwLi1yYr1eEuCKlxPcBvNvJYKNbLplhHDgYp7lc3jBa450lxZXVbQQTiT4TbCaFSlobW4aWoaZtR1krOVRKbHi9Mg4jBxs8UklKzh8SlJzR0qCEwipLcCtWO/JaqKlR80brKDdQIYZ0Iwyx7O+ybbfRu01yYnoZmV7eeJ3Fu+R5l9mb+uAx1qC1wjpLKRnnHeM4cri9AzvhnbSWDSUXlDbotVHvvd59KYWU0gd6k/5p/yXsCW/XBeMCYU2EmLgLeFTyaL3JNE1/CB+tl7jY0KEibOJqItr19crEmIgx/lPTh9gJO3Mn7b6jtYpbM5+fJJ++CX68GpSUCLHs8nruY/6tpu17OQwDh669H7r+uz+dB74+H/nydOT7zxOn4y+Op9NHzt/o8fP5vO/obyAUA7SduJ6rAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 7.png&quot;
+        title=&quot;./Untitled 7.png&quot;
+        src=&quot;/static/fce1fe912d645a92f6a47e86704a2455/f058b/Untitled%207.png&quot;
+        srcset=&quot;/static/fce1fe912d645a92f6a47e86704a2455/c26ae/Untitled%207.png 158w,
+/static/fce1fe912d645a92f6a47e86704a2455/6bdcf/Untitled%207.png 315w,
+/static/fce1fe912d645a92f6a47e86704a2455/f058b/Untitled%207.png 630w,
+/static/fce1fe912d645a92f6a47e86704a2455/40601/Untitled%207.png 945w,
+/static/fce1fe912d645a92f6a47e86704a2455/6f2be/Untitled%207.png 1029w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;생성 후 화면. Go to resource를 클릭하여 가상머신 메뉴로 진입한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;포트 정책 추가&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Azure portal &gt; Virtual Machine &gt; [Your VM name] &gt;Networking 메뉴로 진입&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/600c6c99090800572fd630a4f3eb2388/cec12/Untitled%208.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.734177215189874%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAABpUlEQVQoz32S64rdMAyE8/7PVPoG7Z+W/inbyyY5ORcnsWNbdmwnX7HZs1AoFQgpkjUzDOm0JBbjmLVlNg6la+/YJGFDRvaMj5njOP6b53liraWbNs9wuXC73zHGsFnbakqZUo6WuRRKKe3oX/GcK6Xo5k3QxnC+MaWUcF5QiybGvQHlnNu8qTlPjuP8S1mtNZZloTOS8N63o7pc15VlNUx31UAqUSmZ/8VTYQO0xrNtGyGEBhBj5KEm+t+/GKc7vfJcdcSGgnGR1WeMFIzfWa1gQ8LvhVjeAOdlwWhNEMF710BrX5fabDzmFesDe8qI92gXCXsmiMd5V/W9K3VmpVuMZVaP9kDEN4WzFcabYtEGbSybE0RCs0a8I4SIldT8/XaLfPhu+fgifH650anNse/7O0s5DkLc8c41pZv1pHKScm5kdV/B6+9UvfuhhC/XyKdXy9efE93drKxaN/Z6UMGds4QYySmiF9WA61xEmipnLWmPzXfZNBw7R3Q8rhe6eV3p+77lOI5M09Tq5XJpfd8PDMPQvp+zZ6352vcMw0g/DEzTlT+MVAPcuNKJ6gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 8.png&quot;
+        title=&quot;./Untitled 8.png&quot;
+        src=&quot;/static/600c6c99090800572fd630a4f3eb2388/f058b/Untitled%208.png&quot;
+        srcset=&quot;/static/600c6c99090800572fd630a4f3eb2388/c26ae/Untitled%208.png 158w,
+/static/600c6c99090800572fd630a4f3eb2388/6bdcf/Untitled%208.png 315w,
+/static/600c6c99090800572fd630a4f3eb2388/f058b/Untitled%208.png 630w,
+/static/600c6c99090800572fd630a4f3eb2388/40601/Untitled%208.png 945w,
+/static/600c6c99090800572fd630a4f3eb2388/cec12/Untitled%208.png 1187w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inbound port 규칙을 추가하여 30303포트 열기(TCP, UDP 두가지)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1d5b12223512f67a874596ae58fa100d/96e86/Untitled%209.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 32.911392405063296%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAABR0lEQVQoz12RW2vcMBCF/f//SqCvSVq8lzaQ14ZC30pJrI1JvJvVWqObLfkL0nZZ6MDhcM4ZjTSoOY0GsRbvPfYfi0jFRRsRpmkipfQfMjnZM/JC8I7muX+nf3tnf/hgOJ4QVwYaRMbKNkRO1jOnGcgsSwIWUtXwpP5y8/MPX3572l+KxrlMziAyEWJpPdeczija+YWUYZqpPaVEEvMM2sGbzphpoesHmsluyb4ljt/Ifs0S1mS/IpoWb1qyawmVV0RpSe6aL2FDMLcE81gvOewHGqs3EB+wpzXj/p4wrsj+B1G2eLOtmR83LOGBKN/Rwx2TbJBjecQaMV8Z9XngMAw0Rx3qakcdeX3VlcWCdWVViBMYyZWLd/jwGJMxJtX1zRjQ2tVP6vueRqkXuu4F1RV+Zrfr2Kmuelf/ype86HJWXTKl6LqOT7RCEpov/IUpAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 9.png&quot;
+        title=&quot;./Untitled 9.png&quot;
+        src=&quot;/static/1d5b12223512f67a874596ae58fa100d/f058b/Untitled%209.png&quot;
+        srcset=&quot;/static/1d5b12223512f67a874596ae58fa100d/c26ae/Untitled%209.png 158w,
+/static/1d5b12223512f67a874596ae58fa100d/6bdcf/Untitled%209.png 315w,
+/static/1d5b12223512f67a874596ae58fa100d/f058b/Untitled%209.png 630w,
+/static/1d5b12223512f67a874596ae58fa100d/40601/Untitled%209.png 945w,
+/static/1d5b12223512f67a874596ae58fa100d/96e86/Untitled%209.png 1089w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;가상머신 원격 접속(SSH)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ssh [Virtual Machin Name]@[IP Address] 를 이용하여 리눅스 가상머신에 접속&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 613px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0c5ed278a1a27bc7a1348d690b0ac9f3/5754a/Untitled%2010.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 86.70886075949367%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsTAAALEwEAmpwYAAADoElEQVQ4y22T2VObZRTGv8pSaIBAgEAopYGsJCQQkhL2sAujIt3I+gWSQFkCrbe2d/4FXrlUZxyVljK1FW2nA5YZBTrVSy+Eto6jvfDKa61Mcfw535sQre0788x51+ec87znSI9//Y3lL7ZY/nKLlVvbXFnd5PLyVwIfXLsr7PtX1zN7l6/d5b2r67yztMa7V9bF2dsf3Wbj3vcoQ1pa3SLPGkTdGOWIPYzaGeWILcxhS4AiR4Q8a4Bcs5/8+qC4V9AQIcfsR6oeQ6oaRTo2hlQ0xGD4In/v7yF9+vkm2SY/muYYxU0TqF1RNO5Jil1xNJ4EpZ4EJc1xilwx1E2TFDhkCp0yudYgkuEsWSY/ku51RqKXeLr3O9L1O/fReuIYe5LUdi/Q1BVmsGeM3m4/w/0hRgYjDPUFeW0ohNcXpdg1icY1gdaTQOed5ljHHIeMAYbli+zv/YF0Y+1bjrZOoe+cw+Cbx9q7gKFjBlPXDPa+JObuWWx9SRwD58WZqXcR+8AFbAMXMPUsMPDKDBXOIEPypRThzbXvqGk/h75zFmv/IkZfEkvfIjXtM+i75rH1L+L2nqHNe5LOtlN4vacoa5KFRKXNMSoaA0j6kwwfEC6tbooUjnfOUt12jpKmCaq802jS9qiClgRqRxiVLURhQ5i8+pD4wMOKjkY/UuUoIweEH65sUNo8iePlN1A7ZbLMfvQds1R7pzH5ktR2zoqojd3zlLvjSMZxpLozKRjOkm1OfUomwpXb98RFQ/c82hMJEVWdMvfEUdkjImJRKpaAeHzIOM5LxnFhFTxH+MnNb5BqT4tHKns4lUp9kPz6kEhJWStkkv70v5HVpvGiCD++8bUgVGpLIVIIVGl98m1hUeSKZopD5azAEaHIKQsoNZj1f8LP7twXwlv6FqjtmsPcs0Bd15yQQEndIPaS2AfOU9mSoMITp7p1mjJ3TDh5jnD51jaFDRGhn8Y1KVpQuaxoJ8riREJ8WnFjVGh6IIlKkSitraQbfTbCCk+Cmo5U2RQ5o6IFD9JSHChpKih0yKn2bIxmHObbQpnWy9RhTn0AjTtGZesUpZ6YgM47RZk7To4lSJY5kLHZlqCY51pDqBpSOkrlrzIYfjNFeH1jmxLfOFX9EXRDQSr6g2h7g1T6Ihxvn0LrkdG6DxD9z1ym3C2ja5lAZQ/gn3uLpwrhkyd/8ujHn/hh5wE7uw/ZeZDG7sNn1y/ArsAj8fbnXx7z1/4+/wD+n6y8ijvMTwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 10.png&quot;
+        title=&quot;./Untitled 10.png&quot;
+        src=&quot;/static/0c5ed278a1a27bc7a1348d690b0ac9f3/5754a/Untitled%2010.png&quot;
+        srcset=&quot;/static/0c5ed278a1a27bc7a1348d690b0ac9f3/c26ae/Untitled%2010.png 158w,
+/static/0c5ed278a1a27bc7a1348d690b0ac9f3/6bdcf/Untitled%2010.png 315w,
+/static/0c5ed278a1a27bc7a1348d690b0ac9f3/5754a/Untitled%2010.png 613w&quot;
+        sizes=&quot;(max-width: 613px) 100vw, 613px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;*Note: IP 주소는 Azure portal &gt; Virtual Machine &gt; [Your VM name] &gt; Overview’ 페이지에서 확인 가능&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tool 설치&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Note: Code 박스의 Script를 한줄씩 복사하여 실행&lt;/li&gt;
+&lt;li&gt;Docker 설치 및 등록&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; update
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; docker.io
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl start docker
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; systemctl &lt;span class=&quot;token builtin class-name&quot;&gt;enable&lt;/span&gt; docker
+docker --version
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;usermod&lt;/span&gt; -aG docker &lt;span class=&quot;token environment constant&quot;&gt;$USER&lt;/span&gt;
+newgrp docker&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 617px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1e6d0afede94d37f7f09cb626f577dd8/bc962/Untitled%2011.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.77215189873418%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKklEQVQoz12OTUjTcRjHfx6sLOfL5mxS5jRf8r3+m010arNQ0XL4rtNtbi4l00q9RJcuGXTropJFEYaoaEIIiplkHsIOieb+k96gQ6cotUOIkJ/wv0t1+PDleb48Dx/x5es3HozM8WjsBYPDz3k8Ps/A0AyDw7MMPX3J/ZFZpXs4NsfAkxnu3JvkVt84vf0T9PaNc7t/gpt3RxmdWmR39zdicv41QirnYHYd+3OqUOXVISQrgVIN6lNuIrPcRJk8RBhcRBjcqNKbCEqxIfRVCH0lIq4acfgCORXd/NzaQEwvvOVITiuJZzs5mtuGxugmwuhCm+UmXGom7KQTrdGNWtrbtaAzedAYXASn25VOLTWz74SNcw3X2dz4jnj2aolgcy2heTbCChsIs9gIP2MjJLcRfd5lEgo7lEOd6SIayUVQSiMHkm1+s9hqAuJrEFFWxXBr8wdiavENIfn1aC12dCUOIovsaAobUZvtxJjbSS2+xrHcNlQZdkIznYRmOhTbQ2lNBMTXEphUj4iuwFzV4384vbCMztRKkqWT1KJu0kt6OF7QQYKlk2jzJWILOojNb0fEVCpGQv8fcTUInZVsa5f/4dzSMjGlThLLWkiqaCG50kP8eRcJpR4yiq9wuryLU6VX0Zs9aA12Io2Of9BlOVGlNVDmuMHW5gbi1/Y2vg/vWfF6WZW9rMh7KbPqlVnz+vDK635868q8Ju/lX8jrvFvz8fHTZ3Z2dvgDSY5hlZoMNoIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 11.png&quot;
+        title=&quot;./Untitled 11.png&quot;
+        src=&quot;/static/1e6d0afede94d37f7f09cb626f577dd8/bc962/Untitled%2011.png&quot;
+        srcset=&quot;/static/1e6d0afede94d37f7f09cb626f577dd8/c26ae/Untitled%2011.png 158w,
+/static/1e6d0afede94d37f7f09cb626f577dd8/6bdcf/Untitled%2011.png 315w,
+/static/1e6d0afede94d37f7f09cb626f577dd8/bc962/Untitled%2011.png 617w&quot;
+        sizes=&quot;(max-width: 617px) 100vw, 617px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;docker-compose 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -L &lt;span class=&quot;token string&quot;&gt;&quot;https://github.com/docker/compose/releases/download/1.26.2/docker-compose-&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;uname&lt;/span&gt; -s&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;-&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;uname&lt;/span&gt; -m&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt; -o /usr/local/bin/docker-compose
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;chmod&lt;/span&gt; +x /usr/local/bin/docker-compose
+docker-compose --version&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 623px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4b3e0c41ad5c3a1ef133201c448c2bb5/6114d/Untitled%2012.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 30.37974683544304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAABrklEQVQY013Q4UsTARzG8YM0D+cFNZpGb0JYztylTdOcRRERQUFoMt3dDk/P6ZwhvbRCwlpQ2JtgqSAYV1OahS+K2gTf6dug19EfoTvPjeXxlVvQC3/wgYfnxfPiJ/z6/YeX5ifmVr/wJvuZV5k1Xq+sMWeu887MsbiS5+3yN9Lmd+Y/5FjM5Fla3WD+Y46FTJ6FTI60+YPNrZ+4Jyxl80ghFd+VYXxhndNdQ1S3RPDICmIgiiRrnJA1pGCMKv8Anha1ko/5IxV1wRhCYz/KxCw4ZYT32U1qAzF8oVG8rQYN7XG8bQan2nSkixr+G5Ocu5ag8XoSb2iY+ssG9Z1GJZ+8pHO2e6xCn0px8LeEsLy+gRDsxdOpIPUoiB0DCHIfgr8XMRDjTFec4wGFqvODiBdUappVxGaVGrdrilIna1Q3RemPz+C4g1+3t+kwxugZn6T7YYJwIkl4IslV/RF9I895EJ8lkkhxf+QZ94ZmiIy/4Lb6hFvRaW4OTnNHe0r73Skep9I4B2UE95Fl26ZoFSgVLErWP8W9Ara189/+3i6262hn7VC0dynt2ziOwyHmSCP8nKVZQwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 12.png&quot;
+        title=&quot;./Untitled 12.png&quot;
+        src=&quot;/static/4b3e0c41ad5c3a1ef133201c448c2bb5/6114d/Untitled%2012.png&quot;
+        srcset=&quot;/static/4b3e0c41ad5c3a1ef133201c448c2bb5/c26ae/Untitled%2012.png 158w,
+/static/4b3e0c41ad5c3a1ef133201c448c2bb5/6bdcf/Untitled%2012.png 315w,
+/static/4b3e0c41ad5c3a1ef133201c448c2bb5/6114d/Untitled%2012.png 623w&quot;
+        sizes=&quot;(max-width: 623px) 100vw, 623px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;make 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 619px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/177e6286903c82d9bc38f1360f1cb5a7/e628c/Untitled%2013.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAACi0lEQVQoz61SSU+TURR9QAWRQaZCaSnQuaUMdqCUsQUMQWlRgdrBUigdqKWlJG78CSZoYmIsiYligsACV7o00aiEaIwxCP4HI8NCWHvMfR+4YO2XnLx73/feeefce9nm112oR2ahHE5AO5pA43AM0oEwqnunUWWZQblpCqVtIVxsC6Hs0hSKW4IQ6Xw4p/PxtcDgB2sYg8N7F8dHv8Hef9qB1pmCYTADTV8KGmcauv55VJnDkHREOUm+3o+i5iCKjEFcMN7CeUOA58XNQZS2hpCr9sJ8NY2D/T2wt1vbkNqjUPYl0diTQI0tArE1jJLWSVRawjynywWGAAqJrCnAH6C1sEkgZkoPrO4MDg/2wd5tfYfKkYS2P4W6zjhk9hh/mS4RCakheznqm2DKiTPwCPuy67C45nF4sAf25uM31HfFUWePcXvlJqpdmIPslLRMQmwJo8I0DZHWizyNFyKtj8dM5UGuxgtWdwOWkRPCzS8/oB9IQzeQhrwzzpU2dCfQNJiGtCMGsXUGsk5hFVtmUN0e4U4ktii3TI1h8jFYXRmB8MPnHSh6ElA55rhdOkxE0o4oj4mA4krzNGpOyEi91B6DxBbhsUjnR8/4HYGQakgKNc45KHpv84NETEqpSaSE1JHlPK1XGBW9n9eVGkM4o3AXxqEMjEMLHKSUOkslUPQloRuc5xOgdCShdqYg755FpZmmIMSngOaT1Y+j3b1w2uVt1NoikHfNotYW5bbK2kLI1/uQo/JwMMUEmOwamHRUgMQtoMYl5BVXYLycEObw569DLK+9RvbZBpaWXyK7vIHHTzfw8Mk6Hiyt/cP97CoWsy+wmF3l8Sno371HK3i+/grHx0dg+I/fHwB/AZvp+ey7PAMEAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 13.png&quot;
+        title=&quot;./Untitled 13.png&quot;
+        src=&quot;/static/177e6286903c82d9bc38f1360f1cb5a7/e628c/Untitled%2013.png&quot;
+        srcset=&quot;/static/177e6286903c82d9bc38f1360f1cb5a7/c26ae/Untitled%2013.png 158w,
+/static/177e6286903c82d9bc38f1360f1cb5a7/6bdcf/Untitled%2013.png 315w,
+/static/177e6286903c82d9bc38f1360f1cb5a7/e628c/Untitled%2013.png 619w&quot;
+        sizes=&quot;(max-width: 619px) 100vw, 619px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;jq 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; jq&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 619px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6ca51b77a2d4026670c0600ec4f9f180/e628c/Untitled%2014.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.27848101265823%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAADaklEQVQ4y1VTS09TWxTePi4RUUCpQFsU+oBisVL6AIpSpOIrAooCVSwtxVLa0pbKRY2XyTXmTq73Jkaj0UR0IvgDHJooUaP4iA9a8DkyzgScig4+s9Y5RR2snL3O2fvb32Md8e7jJ5y4NIrjF67h5JVRDF+8isFzVzB8fhSJv8cRHhnHn//cxKl/b2Dk/3GM/DeGv86O4dTZMSTOXEPs9CiCI5dx/votfP/+DWJicgoqRwAqRx/UdQEUOAJQ2P3IKHdjia4TQt0GUdgKoWqFUO+TSin3yhbpmbsbxqYQvszPQtx5OIXirWGUuWLQ1EdQtCXEfZ7FD7UjCGVtH3LMXqy19GBNlVTZldT7kWf1I99+FJkVHlS3JjA3+5kAX6GwJgBtwwDWb+mHuq4fqto+3qysDfJ6lakbK4xdDJRRfhhC17FYS0s7IYraYGuOY37uM8Tt+y/4kHFngoEVtl6+Nc0gx+yDwurH2qoerDAewfIyN4S2ncGW6DuxjPr1vwDefUSSQ9i06xi0DREU1vQxML3LNfcw4Dr7UZa6ssKDrE0eXudUehkwzdC6VwZ88GwGGmeYJZfUk5dxFNeHod8mWUBM8+29DEJrhbWX/aV19mYv/jAcgthwALbmQQnw/pMUsyHJBKhpiGDjjkFe6+RLiuqCLJnAyA5SQKBkT0FNAKtNXjR0HMc8hfLg6TSK60PQOCOLTJmtk1hG+RAxyTQeYckUUK7Zx88skwe5VT5klHehrm1IYjjxKCmDRRhASjoIw/Y4syuoDjAASVxn6+ULSObSUjcnzpLV+396ODGZRJkritLGKPSNUZQ4I3yI5rJEvqjUFWX5G7aGoNs2IAfmY19Xm7p/T/ne4xT0jQMMSFJ5wJ0RTpx6YlreFGfPiBGlvDiLmnZOmgCtaUAKhUKgsaFkDU1x9s+wPcbglDjZoKwOcAA0m5nGLpZMtVxO2Z5OmeaQ/WuM8S9n2JGATmardvTzr6iqDSK70gehdzMrUXwQoqRdKm0HhHIfzHtiEuDk89ewtQzB3jKEzbtisDYfg2XvIMx74qjcHYdpZxTGpgg2usLQOoNQ1fRAYelGXpUHCosH+VYvsioOweUexvzcLMTXrwuYefMer5LTSE7PIJmawcupFPfpmkpJ7/m7vOfXoj1v333AwsICfgCpDYg04OgqUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 14.png&quot;
+        title=&quot;./Untitled 14.png&quot;
+        src=&quot;/static/6ca51b77a2d4026670c0600ec4f9f180/e628c/Untitled%2014.png&quot;
+        srcset=&quot;/static/6ca51b77a2d4026670c0600ec4f9f180/c26ae/Untitled%2014.png 158w,
+/static/6ca51b77a2d4026670c0600ec4f9f180/6bdcf/Untitled%2014.png 315w,
+/static/6ca51b77a2d4026670c0600ec4f9f180/e628c/Untitled%2014.png 619w&quot;
+        sizes=&quot;(max-width: 619px) 100vw, 619px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status 내려받기 및 노드 실행&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;status-go 클론&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; clone https://github.com/status-im/status-go.git
+&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; status-go/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 619px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/db207700871c85acff5547913474a214/e628c/Untitled%2015.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.44303797468354%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1ElEQVQoz02OT0yScRjHf239WX+2WnYgRCowQajRwdjIsWm+S8c0iaCSmbWK10hA2mq2d62taHXLldWpKWqjunQprENbdUg9Nj221a0OSdoBkBfYp/Gi1eGz7/f5Pnv+iG/ff3D36QsSY89ITKZIjKe4lUyRGH3OvSevuT9WZSSZ5kEyzePJN5p/ODHFyHiaRxNTDI++4uXbaUqlIuLdp8/UHOxj474gG+wn2ewIssURRJh9iF0+hMlf1Z1dCP1RhMGLqO3+R50XUePB0RFhaTGD+DAzh/VwFJP7Eo72y9ikOPuPxDG7w1ilGDZpkL0tA+icF9jq6GNNfQBhPoGor7LWcgphPE5T5yCZhZ+Ij7PzNLQMsMcdprEtqg3bpBiW1ggNrREa22JaVvGVw3WH5BX6MTb3Y3CFWG8Nagt/ZRYQ76fn0DnPU+uSMTTL7Gg6h94lo3eF0DlDbDtwlk32XtZZehBGH2K3H2EOIEwrVLLtHuxSuPrh/Jev+Idu0B1X8F5VOHZFoTM2RFdUISDfJnAxQTByB1/oJu29Ch2nFU1X8Zy5jtRzjYgyzO+lRQRAuVigkM+i5nOo+SzF5RzqclajWMj9paTmKK2q+l+t9fOUy2X+AMHXS0wvKETxAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 15.png&quot;
+        title=&quot;./Untitled 15.png&quot;
+        src=&quot;/static/db207700871c85acff5547913474a214/e628c/Untitled%2015.png&quot;
+        srcset=&quot;/static/db207700871c85acff5547913474a214/c26ae/Untitled%2015.png 158w,
+/static/db207700871c85acff5547913474a214/6bdcf/Untitled%2015.png 315w,
+/static/db207700871c85acff5547913474a214/e628c/Untitled%2015.png 619w&quot;
+        sizes=&quot;(max-width: 619px) 100vw, 619px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Status 노드 실행&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;make&lt;/span&gt; run-mailserver-docker&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 621px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2785d92e324eb08f46b839020d4eb154/3075e/Untitled%2016.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.9493670886076%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAADfUlEQVQ4y22T60+bZRTAX8MUBkhhgB23DgotBUqvFFq2QUuBgqiLG4NeuBTKSi9vW3ExGv2DBsaYyNz8oNxiXCYMBU0Im4C6zCibS/QjGeZn3qckM+qHX87zfDi/97znnEf6/Y8/WVhe5cYXq3y4tsr8yioLK2vML62xsLjO/OImH3+2ya3lDT75fJ3bK/f4dGmDm0sb3Fq+x0e373Bj8UuWv9rmr+NjpPXtXarcEQqsAfKsI+Tb/ORb/eSZR8kzjPOyMUJR6xRltjBFpgnK26YpNk9Q0BKiyDROgTGEVD+C47U0T58+Qdr87gGGnjR6TwqdO0WNK0a5PUKxeZIy+xSl9jAl1knOWMOcsU2hbo9QbJnklN6PVH+VHP0okuYypv44jw9/RVrf2kXnTqLtTtDUm6bKFaXuYpwGdxK9R0bnltF2JdCcn0XdPoPKPEFh6xinm4P/I/wNaWP7PgZvSsgUseZ8TAgaPSmKLRNCoFSbawgIgUCbjS80jJCj+5fw2+9/wDr4Nm2vv0N9VxxN5ywGb5pGj4x07vJzaq8gaYez1J2gHRZSqfpNWvtiWaHSQ5Nvjpa+DM29WVGrbw7zwBxqR4SK9hnBK23TlNrCYihnT+4llklBXlMI16XMP4VvofPINHnT1F6IiQoNPTJVziglbWOcdYap6ZzlnNJHR4Ry+7QYUn5LSHxEmbJ1MHnSw637WAev0/HGu9S4oqjMkzR0yzS6U1R2XKPCGaXUHkHtiFLtiqN2zIgqK53XKLNPY+zPiJzuK9ezwjubO1R0TlHniVJ9IUKDJ47aFUbjjqDpmqGiY4wqZ4CaziCVzhFU5hCFxnFUpgkKjWNiF7N7mMoK727tUOTwc9o2jKrDT6F9lKK2IIWWIAWmIGV25bf8QlzREURlHhNCRaRUlqPLDsXYezKUr7d20bpjAkO/TGNvEl2PTH13dg9rLyao61Luyjkp+lvfnRDrVdeVQOdJUtMZwxd6j0Nlse9+syuStd0yBm9GCIotYdGfUvs0KkuYFxsDvGQIktccIrcpxCl9QLyUHH2AXEMQqfYqtkE5+1J2HvyEN/A+xr4E9qEM5oEU1lfTmH0yloEUtqEMrf1JQXNvHJNPFmcRfTK2oTRN3jiXpj7gyeNDpGfPjnn06Bf29vfZ2z/4L3sH7B8o/JiN+wfP4wlK7s8PH3J0dMTfLkJz8v0UCjwAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 16.png&quot;
+        title=&quot;./Untitled 16.png&quot;
+        src=&quot;/static/2785d92e324eb08f46b839020d4eb154/3075e/Untitled%2016.png&quot;
+        srcset=&quot;/static/2785d92e324eb08f46b839020d4eb154/c26ae/Untitled%2016.png 158w,
+/static/2785d92e324eb08f46b839020d4eb154/6bdcf/Untitled%2016.png 315w,
+/static/2785d92e324eb08f46b839020d4eb154/3075e/Untitled%2016.png 621w&quot;
+        sizes=&quot;(max-width: 621px) 100vw, 621px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;작동 테스트&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;연결된 피어(peer)의 IP 주소 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;DATA&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;admin_peers&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&apos;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s -H &lt;span class=&quot;token string&quot;&gt;&apos;content-type: application/json&apos;&lt;/span&gt; -d &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$DATA&lt;/span&gt;&quot;&lt;/span&gt; localhost:8545 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; jq -r &lt;span class=&quot;token string&quot;&gt;&apos;.result[].network.remoteAddress&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 621px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d1b011399bbca43a5cc8a7aadac9e176/3075e/Untitled%2017.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 39.24050632911392%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1ElEQVQoz43Sz0/ScRjA8c8ym23KL0G/XwIqMStXA0QE19waCqXpsjQNVESyTdnKdenaH9OpVaeWKY5C8wcFbqm4QQe5dYCvdWazvRvQwUNzHV7b82zPnh/bI34oCsupNCupbZbTX4mlUsRSaZaSaWKr+ywl9ln5nCGR3GM1mWHtS4b45i6ftvaIb+zwcXOXRDJD6luOUqmEeLkY5/SNu2i8QepvBWjwTaDxT1LfM476WpTa1ih1V2bROaZR2UJo7NM0uSIYOiM0OmeQuh6hsYe57pvj4CCPePNhHV1XGMkzhanDh779JpLNj845idoW4Wx7iLqr5TiE1hFG1xFG75yh0RlBdj9Gds9S0xbA4gmRzWYRr9+vY+yep8UdoFmnRdbraDI0c+rCEMI6hrCOIqwPEC1lo1UXjynn50cwuafI5b4j3i5uYO6JYu0OIksSRllGMlo40zpcmVxzabyq7d9qLz+sDCtvWGn46t0akmcOk3MMdUMDWrUKlUaPODeAMI8gzPdOZrmPkIcxOALVkxNbO9wOvWAg+Ixer5e+Xi/ePj+uO/M4BxfoHHx6ItfQAvb+J/RPPCefzyN+Hx3x6+chxUIBRVGOKaAU/8PfukOlWHmbP7IZY7iDkQJ6AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 17.png&quot;
+        title=&quot;./Untitled 17.png&quot;
+        src=&quot;/static/d1b011399bbca43a5cc8a7aadac9e176/3075e/Untitled%2017.png&quot;
+        srcset=&quot;/static/d1b011399bbca43a5cc8a7aadac9e176/c26ae/Untitled%2017.png 158w,
+/static/d1b011399bbca43a5cc8a7aadac9e176/6bdcf/Untitled%2017.png 315w,
+/static/d1b011399bbca43a5cc8a7aadac9e176/3075e/Untitled%2017.png 621w&quot;
+        sizes=&quot;(max-width: 621px) 100vw, 621px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;일간 누적 메시지 갯수 확인&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -s localhost:9090/metrics &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;^waku_envelopes_received_total&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 617px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/39b9a389803d4f1e893a1a4b2150eb2c/bc962/Untitled%2018.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 17.088607594936708%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAYAAACTWi8uAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1klEQVQI103IMUsCYQDG8VudJM3vkFh4ISiB38DZ4V4hHPoATR53JlhEKJIgJOdScWIFpvQRyrm1Ne59pWsO2+4N/g4e5PDj+fMYH5+ShneH4/k0b33s0T3OyMf1xrjdOacXM+zOM2fXjzi9B9qDKeeDKVfDOZc3M1r9JxqdCZOXV/60xnhbvLNftDBLFuaRIFuKu2iRK5+QKdRJHghSecFOXpA2a6RNQSq2e1gjsVelcuzyu/rB0Frz/RUigwAVSJT8J6VkuVQbarNKxa22P0kYhkRRxBqbVKchA1QNrwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 18.png&quot;
+        title=&quot;./Untitled 18.png&quot;
+        src=&quot;/static/39b9a389803d4f1e893a1a4b2150eb2c/bc962/Untitled%2018.png&quot;
+        srcset=&quot;/static/39b9a389803d4f1e893a1a4b2150eb2c/c26ae/Untitled%2018.png 158w,
+/static/39b9a389803d4f1e893a1a4b2150eb2c/6bdcf/Untitled%2018.png 315w,
+/static/39b9a389803d4f1e893a1a4b2150eb2c/bc962/Untitled%2018.png 617w&quot;
+        sizes=&quot;(max-width: 617px) 100vw, 617px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;Azure Portal 비용 확인 방법&lt;/h3&gt;
+&lt;p&gt;Azure portal &gt; Subscriptions &gt; [Your Subscription Name] &gt; Cost analysis 페이지에서 아래와 같이 비용 확인이 가능하다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/1be7e/Untitled%2019.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.0506329113924%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsUlEQVQ4y2WTTW/TQBCG8996QSpFtBKoh/4X4MgJ0SOIA7TiwIEDVblAS09FqhA0X9BKoNI4XjuJv9Ze79prOy+acZNSGGm0s07m2XdmZztFYZDnOWxZoiwtcl0gzzVUpqBNAUVxniPXBpnSyJTifVEUKDmngrUV52ZZhk4iUyilQJZICd/32WezEI4j4HkTJImE8HzINGsPU/nStSlhTCtkNHLQiRMFKVNYaxGGIXzfQxTFfPp0OoGUEmVR8CF1XWNhtrZABXZSa4zBeDxGJ88VJ7PCJGEw2Xw+XyYvYlqrpmInc4yDbtbluJk3LTCKpgiDGasghXRS0zT/ed3U7Av7FH3Cen8dz9xnvK/qqgUGyYzLImWkkICk5G/QQhHZhb7Ak9ETbPQ3cOv0Fna8nZvAOG1LJgiBF8B/FYlCYNvZxv3Bfax2V7E52MTt7m28FC//ASqNNE2XQGrw3/1zjctlbQ23GHBvcI9h5GvdNbzyXrXA5gpIc0VzSDdIQG00/3ipL1kRlbbybYVhd3t3cad3h51i+v5CvLipMExjxHHMPUylRG4UpnqKz9Ex9qZ7OAg+4ig4wmFwiIPZAa8cB4f4EHzAWXrGQGqP4zjoRFnAJZPRKrVBkeurecG1LeLmKiZvJwyltSyIFdK0U8lVZZFqA9t7B3v+FFb3cHn5G9oauN/H+PLmBO5gjLEnYI3GQM7w4Mcx9icXnJ9mGVzXRUfKDHEU80XQW0TvIeBvo56+hi8i1Kgw3Ouh+/Ybhvv9pdDd8Tke//yKR+cn1xdIwDBJuYeVLZGpEmV8ilLsotAxUpmisAWSSYz++y7kTLYvpbSIcoXnv3oYRlOgqnjcRqMROjTMRBaeB9cdQ/ghxERBCB+e50G4Av7ERyBDeBOP/+sKAV940LMAgT/hPX2nl/YH+49TEcqtIswAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;./Untitled 19.png&quot;
+        title=&quot;./Untitled 19.png&quot;
+        src=&quot;/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/f058b/Untitled%2019.png&quot;
+        srcset=&quot;/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/c26ae/Untitled%2019.png 158w,
+/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/6bdcf/Untitled%2019.png 315w,
+/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/f058b/Untitled%2019.png 630w,
+/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/40601/Untitled%2019.png 945w,
+/static/4959c1a7d7471d0f4c2d15de9b8ba0d4/1be7e/Untitled%2019.png 1059w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;마치며,&lt;/h3&gt;
+&lt;p&gt;지금까지 Azure 12개월 무료 혜택을 이용하여 Status 노드를 운영하는 방법에 대해 알아보았다.&lt;/p&gt;
+&lt;p&gt;경험에 의존한 Status 노드의 트래픽 평균값으로 비용을 설명하였으나, Status Network의 이용 현황에 따라 비용은 언제든 달라질 수 있으니 지속적인 모니터링이 필요하다.&lt;/p&gt;
+&lt;p&gt;설치과정 중 발생할 수 있는 오류에 대한 Troubleshooting과, 기타 제어 명령에 대한 정보는 &lt;a href=&quot;https://docs.google.com/presentation/d/1ZffkKkb46eYPy1jB37cQtcNEjySxU-dsdpVY4MimTCk/edit#slide=id.gadfe134ee3_0_127&quot;&gt;Status 에서 제공하는 노드 설치 가이드&lt;/a&gt;를 통해 확인할 수 있다.&lt;/p&gt;
+&lt;p&gt;탈중앙화 메시지 서비스에 대한 자세한 정보와 노드에 대한 Status 팀의 소개는 &lt;a href=&quot;https://blog.naver.com/PostView.nhn?blogId=status_korea&amp;#x26;logNo=222287962647&amp;#x26;categoryNo=12&amp;#x26;parentCategoryNo=1&amp;#x26;viewDate=&amp;#x26;currentPage=1&amp;#x26;postListTopCurrentPage=1&amp;#x26;from=postView&amp;#x26;userTopListOpen=true&amp;#x26;userTopListCount=5&amp;#x26;userTopListManageOpen=false&amp;#x26;userTopListCurrentPage=1&quot;&gt;Status Blog&lt;/a&gt;를 통해 확인 할 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Status Network Token(SNT) 전망 분석]]></title><description><![CDATA[Summary 기반: ETH 주요 상장 거래소: 바이낸스, 업비트 서비스: 메신저, SNS, 브라우저, 지갑 종합등급: A+ 티커: SNT 한줄평: 높은 실링, 블록체인 기술의 철학에 충실한 개발진            개요 “Status…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/SNT 전망 분석/</guid><pubDate>Sat, 22 May 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Summary&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;기반: ETH&lt;/li&gt;
 &lt;li&gt;주요 상장 거래소: 바이낸스, 업비트&lt;/li&gt;
