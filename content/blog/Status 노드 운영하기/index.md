@@ -1,7 +1,7 @@
 ---
 title: Status Node 운영하기 (feat. Azure)
 date: "2021-05-29T00:00:00.000Z"
-description: "Status는 사용자가 주체가 되는 탈중앙화 플랫폼이기 때문에 누구든지 약간의 노력으로 자신의 컴퓨터나 클라우드를 이용해 Status의 노드를 운영해볼 수 있다. 아직 노드 운영에 대한 정기적인 보상(Node Incentive)은 없지만 이는 향후 구체화 될 전망이며 이를 통해 Status Network의 가치는 크게 증가될 것이다. 
+description: "Status는 사용자가 주체가 되는 탈중앙화 플랫폼이기 때문에 누구든지 약간의 노력으로 자신의 컴퓨터나 클라우드를 이용해 Status의 노드를 운영해볼 수 있다. 
 &nbsp; 
 이번 글에서는 Azure가 최초 가입 사용자에게 주는 혜택을 활용하여, 저렴한 비용으로 스테이터스 노드를 운영해볼 수 있는 방법을 소개한다."
 ---
@@ -35,14 +35,14 @@ Status는 사용자가 주체가 되는 탈중앙화 플랫폼이기 때문에 �
 - 2개의 64GB SSD 디스크 무료 제공\*
 - 1코어 1GB RAM 성능의 가상머신 무제한 생성 가능\*
 
-\*Free Trial Benefit(Azure 최초 이용자에게 12개월간 제공하는 혜택)
+_\*Free Trial Benefit(Azure 최초 이용자에게 12개월간 제공하는 혜택)_
 
 **Node 운영 시 과금 요소(Free Trial 기간 내)**
 
 - Public IP address 이용료 - 30일 기준 약 3,200원($0.004/hour)
 - 5GB 초과분의 데이터 전송 비용 ([Pricing Detail](https://azure.microsoft.com/en-us/pricing/details/bandwidth/)) - 운영해본 결과 한달 1만원 이내
 
-\*Note: 첫달은 제공 되는 무료 크레딧으로 차감 가능
+_\*Note: 첫달은 제공 되는 무료 크레딧으로 차감 가능_
 
 **Free Trial 기간(12개월) 이후 추가 과금 요소**
 
@@ -51,15 +51,17 @@ Status는 사용자가 주체가 되는 탈중앙화 플랫폼이기 때문에 �
 
 ### Step-by-step 노드 설치 가이드
 
-> 노드 생성 절차 간단 요약
->
-> 1. Azure 가입 및 무료평가판 구독 생성
-> 2. 리눅스 가상머신 생성
-> 3. 포트 정책 추가
-> 4. 가상머신 원격 접속(SSH)
-> 5. 컨테이너 생성
-> 6. 노드 설치 및 구동
-> 7. 작동 테스트
+```
+[노드 생성 절차 간단 요약]
+
+1. Azure 가입 및 무료평가판 구독 생성
+2. 리눅스 가상머신 생성
+3. 포트 정책 추가
+4. 가상머신 원격 접속(SSH)
+5. 컨테이너 생성
+6. 노드 설치 및 구동
+7. 작동 테스트
+```
 
 **Azure 가입 및 무료평가판 구독 생성**
 
@@ -96,7 +98,7 @@ Offer ID가 다를 경우 12개월 무료 혜택이 아닌 것이기 때문에 �
 
 ![./Untitled 5.png](./Untitled 5.png)
 
-\*Note: Password 방식의 경우 어디서든 IP를 통해 접속시도를 할 수 있어 계정 정보 취급에 주의 필요
+_\*Note: Password 방식의 경우 어디서든 IP를 통해 접속시도를 할 수 있어 계정 정보 취급에 주의 필요_
 
 - [VM Creation Form] SSH(22) 포트를 허용하도록 체크
 
@@ -120,17 +122,21 @@ Offer ID가 다를 경우 12개월 무료 혜택이 아닌 것이기 때문에 �
 
 **가상머신 원격 접속(SSH)**
 
-- ssh [Virtual Machin Name]@[IP Address] 를 이용하여 리눅스 가상머신에 접속
+- Windows의 'Powershell', MacOS의 'Terminal'등 커맨드라인 툴을 실행. 아래 명령어를 이용하여 리눅스 가상머신에 접속
+
+```bash
+ssh [Virtual Machin Name]@[IP Address]
+```
 
 ![./Untitled 10.png](./Untitled 10.png)
 
-\*Note: IP 주소는 Azure portal > Virtual Machine > [Your VM name] > Overview' 페이지에서 확인 가능
+_\*Note: IP 주소는 Azure portal > Virtual Machine > [Your VM name] > Overview' 페이지에서 확인 가능_
 
 **Tool 설치**
 
-- Note: Code 박스의 Script를 한줄씩 복사하여 실행
+_\*Note: Code 박스의 Script를 한줄씩 복사하여 실행_
 
-* Docker 설치 및 등록
+- Docker 설치 및 등록
 
 ```bash
 sudo apt-get update
